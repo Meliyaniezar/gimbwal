@@ -8,16 +8,16 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "plss mau dong",
-        image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
+        text: "Please? i beg you",
+        image: "https://i.pinimg.com/736x/b0/15/ba/b015ba50363ab21becbc87369a210848.jpg"
     },
     {
-        text: "pls klik yg kiri",
-        image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
+        text: "Please click the button left",
+        image: "https://i.pinimg.com/736x/01/a3/59/01a359362ab6e23c8ccddee6d25d5e00.jpg"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
-        image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
+        text: "Okay last babe, if you choose \"no\" its fine :)",
+        image: "https://i.pinimg.com/736x/2f/ba/21/2fba21c9e97e3a714a1b6c55af7d6813.jpg"
     }
 ];
 
@@ -121,8 +121,8 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
-    document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
+    title.innerHTML = "HOORAY!! i knew you would do that asksghvwegdsbjs";
+    document.querySelector('img').src = "https://i.pinimg.com/originals/4c/47/c8/4c47c87fc4ca6a24bdaa758f120fc3b5.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "JOKE ONLY HEHEHE";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
