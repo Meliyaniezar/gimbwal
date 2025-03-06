@@ -16,7 +16,7 @@ const messages = [
         image: "https://i.pinimg.com/736x/01/a3/59/01a359362ab6e23c8ccddee6d25d5e00.jpg"
     },
     {
-        text: "Okay las babe, if you choose \"no\" its fine",
+        text: "Okay last babe, if you choose \"no\" its fine",
         image: "https://i.pinimg.com/736x/2f/ba/21/2fba21c9e97e3a714a1b6c55af7d6813.jpg"
     }
 ];
